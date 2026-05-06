@@ -1,0 +1,17 @@
+.uk-card-header {
+    display:flex;
+    justify-content: space-around;
+}
+.uk-card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width:90px;
+    height:90px;
+}
+.uk-button-primary {
+    height:45px;
+    background-color: rgb(5, 5, 112);
+}
