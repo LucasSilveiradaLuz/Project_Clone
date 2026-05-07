@@ -16,5 +16,9 @@
     background-color: rgb(5, 5, 112);
 }
 .uk-card-media-top {
-    display:flex
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
 }

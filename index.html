@@ -35,28 +35,41 @@
          <div class="uk-button uk-button-primary">Resultados de exames</div>
     </div>
 </div>
-<!-- Link do UIkit no <head> -->
+
 <link rel="stylesheet" href="https://jsdelivr.net" />
 
-<div class="uk-card uk-card-default uk-width-1-2@m">
-  
-    <div class="uk-card-media-top" uk-grid>
-        <div>
-            <img src="img/RaiosomBanner.jpg" alt="Foto 1" style="height: 500px;">
-        </div>
-        <div>
-            <img src="img/Clinica_RaioSom.jpg" alt="Foto 2" style="height: 500px;">
-        </div>
-        <div>
-            <img src="img/Resultado_RaioSom.png" alt="Foto 3" style="height: 500px; ">
-        </div>
-        <div>
-            <img src="img/Enfermagem_RaioSom.jpg" alt="Foto 4" style="height: 500px; ">
-        </div>
-    </div>
+<div class="uk-card uk-card-default uk-width-1-2@m uk-align-center">
     
+    <!-- Container do Slideshow (Carrossel) -->
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" 
+         uk-slideshow="autoplay: true; autoplay-interval: 3000; animation: fade">
+
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="img/RaiosomBanner.jpg" alt="Imagem 1" uk-cover>
+            </li>
+            <li>
+                <img src="img/Clinica_RaioSom.jpg" alt="Imagem 2" uk-cover>
+            </li>
+            <li>
+                <img src="img/Resultado_RaioSom.png" alt="Imagem 3" uk-cover>
+            </li>
+            <li>
+                <img src="img/Enfermagem_RaioSom.jpg" alt="Imagem 4" uk-cover>
+            </li>
+        </ul>
+
+        <!-- Setas de Navegação (aparecem no hover) -->
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        
+        
+        <ul class="uk-slideshow-nav uk-dotnav uk-position-bottom-center uk-position-small"></ul>
+
+    </div>
 
 </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
 <script src="uikit/dist/js/uikit-icons.min.js"></script>
@@ -64,3 +77,6 @@
 <script src="https://cdn.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
 </body>
 </html>
+
+
+
