@@ -8,10 +8,13 @@
 }
 
 #logo {
-    width:90px;
-    height:90px;
+    width:85px;
+    height:80px;
 }
 .uk-button-primary {
     height:45px;
     background-color: rgb(5, 5, 112);
+}
+.uk-card-media-top {
+    display:flex
 }
