@@ -36,17 +36,26 @@ section .about .uk-button .uk-button-primary {
     display: inline-block;
     margin-bottom: 40px;
   padding: 32px 50px; 
-
   border-radius: 50px; 
 }
-section .cards {
+ .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items:center;
 
 }
-section .cards2 {
+ .cards2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+#div {
+    background-color: aliceblue;
+    height: 100px;
+    width:100%;
+}
+#footer-thumb {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
