@@ -1,4 +1,8 @@
-.uk-card-header {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.uk-card-header {
     display:flex;
     justify-content: space-around;
 }
@@ -39,12 +43,16 @@ section .about .uk-button .uk-button-primary {
   border-radius: 50px; 
 }
  .cards {
+    width:100vw;
+    height:100vw;
     display: flex;
     justify-content: center;
     align-items:center;
 
 }
  .cards2 {
+    width:100vw;
+    height:100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,4 +66,5 @@ section .about .uk-button .uk-button-primary {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
