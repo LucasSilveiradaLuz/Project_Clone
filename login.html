@@ -8,20 +8,29 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    <img src="img/RaioSomPacs.png" alt="">
-    <input type="text" placeholder="Usuário">
-    <input type="text" placeholder="Senha">
-<div class="uk-button uk-button-primary"> Acessar sua conta</div>
-<h2> Esqueceu sua senha? </h2>
+<body class="login">
+    <div class="login-container">
+        
+        <img src="img/RaioSomPacs.png" alt="" id="logo-main">
 
-<img src="img/Animati.png" alt="">
+        <form class="form-signin" action="">
+            <input id="user" type="text" class="form-control" placeholder="Usuário">
+            <input id="password" type="password" class="form-control" placeholder="Senha">
+            
+            <div id="acess" class="uk-button uk-button-primary"> Acessar sua conta</div>
+            
+            <h2>Esqueceu sua senha?</h2>
+        </form>
+
+        <img src="img/Animati.png" alt="" id="logo-footer">
+    </div>
+
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
 <script src="uikit/dist/js/uikit-icons.min.js"></script>
 
 <script src="https://cdn.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
 <script src="script.js"></script>
-<style></style>
+
 </body>
 
 </html>
