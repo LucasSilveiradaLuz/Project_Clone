@@ -10,6 +10,8 @@
     height: 80px;
 }
 
+/* login */
+
 
 body.login {
     font-family: Arial, sans-serif;
@@ -39,9 +41,7 @@ body.login {
 }
 
 
-.form-signin {
-    width: 100%;
-}
+
 
 .form-signin .form-control {
     width: 100%;
@@ -55,19 +55,26 @@ body.login {
 }
 
 
-#acess {
+.form-signin {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    height: 65px;
-    background-color: #050570; 
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 5px;
+    flex-direction: column;
+    align-items: center; 
+}
 
+#acess {
+    display: flex !important;
+    width: 100% !important;
+    height: 45px !important;
+    justify-content: center !important; 
+    align-items: center !important;     
+    line-height: 45px !important;       
+    padding: 0 !important;              
+    text-align: center !important;
+    border-radius: 4px;
+    text-transform: none; 
+    font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -85,6 +92,7 @@ body.login {
     max-width: 120px;
 }
 
+/* Trabalhe conosco */
 
 body.work {
     display: flex;
@@ -146,27 +154,12 @@ section .about .uk-button .uk-button-primary {
 }
 
 
-.cards {
-    width: 100vw;
-    height: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.cards2 {
-    width: 100vw;
-    height: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-#div {
-    background-color: aliceblue;
+.bloco {
+    background-color: white;
     height: 100px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 
@@ -175,4 +168,33 @@ section .about .uk-button .uk-button-primary {
     justify-content: center;
     align-items: center;
     max-width: 200px;
+}
+
+#cards {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px; 
+}
+#cards2 {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px; 
+}
+
+.item-card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    width: 30%;            
+}
+
+.item-card p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+    margin-top: 10px; 
 }
